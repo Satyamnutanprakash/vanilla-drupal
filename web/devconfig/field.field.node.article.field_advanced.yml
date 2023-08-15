@@ -1,0 +1,23 @@
+uuid: c54d7976-70aa-483a-889f-6340cb3b61ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_advanced
+    - node.type.article
+id: node.article.field_advanced
+field_name: field_advanced
+entity_type: node
+bundle: article
+label: advanced
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

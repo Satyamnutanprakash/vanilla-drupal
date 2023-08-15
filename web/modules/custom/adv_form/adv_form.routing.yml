@@ -1,0 +1,7 @@
+adv_form.settings_form:
+  path: '/admin/config/system/adv-form'
+  defaults:
+    _title: 'Advanced Form Task Module settings'
+    _form: 'Drupal\adv_form\Form\SettingsForm'
+  requirements:
+    _permission: 'administer adv_form configuration'
