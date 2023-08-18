@@ -1,0 +1,15 @@
+uuid: 070a0e8d-818a-4b3a-9b2b-7ddf3bc45fc5
+langcode: en
+status: true
+dependencies: {  }
+name: article
+label: 'Article (700x700)'
+effects:
+  880e1a99-c417-4104-aa21-e4f4d3d9e687:
+    uuid: 880e1a99-c417-4104-aa21-e4f4d3d9e687
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 700
+      height: 700
+      anchor: center-center
