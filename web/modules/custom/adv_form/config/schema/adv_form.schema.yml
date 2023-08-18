@@ -1,0 +1,8 @@
+# Schema for the configuration files of the Advanced Form Task Module module.
+adv_form.settings:
+  type: config_object
+  label: 'Advanced Form Task Module settings'
+  mapping:
+    example:
+      type: string
+      label: 'Example'
